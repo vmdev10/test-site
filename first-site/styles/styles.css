@@ -1,0 +1,46 @@
+/* Fonts and texts */
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* refers to the font (s) you want to use for the text. */
+    /* Changing the page color */
+    background-color: #00539f;
+  }
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  
+    /* Positioning and styling the main page title */
+    margin: 0; /* Você deve ter notado que há uma lacuna horrível na parte superior do corpo. Isso acontece porque os navegadores aplicam um estilo padrão ao <h1>elemento (entre outros) 
+      Para eliminar a lacuna, substituímos o estilo padrão do navegador com a configuração margin: 0*/
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black; /* aplica uma sombra ao conteúdo de texto do elemento. Seus quatro valores são:
+    deslocamento horizontal, vertical, raio da sombra e cor da sombra */
+  }
+  
+  p,
+  li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  /* Modeling the body */
+  body {
+    width: 600px;
+    margin: 0 auto;
+  
+    background-color: #ff9500;
+  
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+  /* Centering the image */
+  img {
+    /* Imagens não são elementos de bloco, e sim elementos embutidos, isto é precisam de uma configuração adicional 
+    para se aplicar margem e espaçamentos, nesse caso, a propriedade "display: block;" faz esse papel */
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  
